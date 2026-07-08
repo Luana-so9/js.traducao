@@ -1,0 +1,91 @@
+.topinho {
+    display: flex;
+    gap: 10px;
+    background-color: #003d20;
+    width: 100%;
+    height: 120px;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    display: flex
+}
+
+.nomepag {
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: -20px; 
+}
+.imagemlogo img{
+    margin-top: 3%;
+    
+}
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 25px;
+    margin-top: -20px;
+    font-size: 30px;
+  }
+  nav {
+    margin-left: 900px;
+    margin-top: 50px;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #003d20;
+    width: 100%;
+    min-height: 250px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+footer p {
+    font-size: 18px;
+    max-width: 65%;         
+    margin: 0 auto;          
+    text-align: justify;     
+    padding: 10px 20px;      
+}
+
+footer a {
+    text-decoration: none;
+    color: #457d58;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.iconezinhos {
+    display: flex;
+    gap: 10px;       
+    margin-top: 30px;
+}
+
+.iconezinhos img {
+    width: 40px;             
+    height: 40px;            
+    object-fit: contain;     
+    transition: transform 0.2s; 
+}
+
+.iconezinhos img:hover {
+    transform: scale(1.1); 
+}
+
+.imagem1{
+    padding: 15px;
+}
+
