@@ -1,0 +1,113 @@
+DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="coisa.css">
+    <link rel="stylesheet" href="stlye.css">
+   
+</head>
+
+<body>
+
+    <div class="topinho">
+        <header>
+            <div class="imagemlogo">
+                <img src="imagens\logo.png" alt="" width="130px">
+            </div>
+            <div class="nomepag">
+                <h1>Mente Viva</h1>
+            </div>
+        </header>
+        <div class="navegando">
+            <nav> 
+                <a href="index.html">Início</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="planos.html">Planos</a>
+                <a href="galeria.html">Galeria</a>
+                
+            </nav>
+        </div>
+    </div>
+
+
+    <main>
+        <div class="quadrado">
+            <div class="tite">
+                <div class="titulo">
+                    <h1>O que é Mente Viva?</h1>
+                </div>
+                <div class="texto">
+                    <p>O Mente Viva é uma plataforma de consultas psicólogas virtuais, na qual oferece
+                        suporte acessível
+                        e conteúdos sobre ansiedade, depressão, estressa e autoconhecimento, ajudando pessoas a entender
+                        e
+                        lidar melhor com suas
+                        emoções.</p>
+                </div>
+            </div>
+
+            <div class="tot">
+                <h1 class="tit">Contato: </h1>
+                <div class="form">
+                    <h3>Contate-nos para mais informações: </h3>
+                </div>
+                <form id="formulario" class="formulario">
+                    <div class="form1">
+                        <label for="nome">Nome:</label>
+                        <br>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="form1">
+                        <label for="E-mail">E-mail:</label>
+                        <br>
+                        <input type="text" id="nome1" name="nome" placeholder="Digite seu e-mail" required>
+                    </div>
+                    <div class="form1">
+                        <label for="número">Número de telefone:</label>
+                        <br>
+                        <input type="text" id="nome2" name="nome" placeholder="Digite seu Número de telefone" required>
+                        <br>
+                    </div>
+                    <br>
+                    <button onclick="cadastradar()" class="form2">Entrar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            ATENÇÃO: Este site não oferece tratamento ou aconselhamento imediato para pessoas em crise suicida. Em
+            caso de crise, ligue para 188 (CVV) ou
+        </p>
+        <p>
+            acesse o site <a href="https://cvv.org.br/" target="_blank">www.cvv.org.br</a>.
+            Em caso de emergência, procure atendimento em um hospital mais próximo.
+        </p>
+        
+        <div class="iconezinhos">
+            <a href="https://share.google/vSVV4ztGRD04Nd2Mk" target="_blank">
+                <img src="imagens/mapssss.png" width="50px" alt="Mapa">
+            </a>
+            <a href="https://www.instagram.com/senacminas/" target="_blank">
+                <img src="imagens/instaa2.png" width="50px" alt="Instagram">
+            </a>
+            <a href="https://wa.me/553433041400" target="_blank">
+                <img src="imagens/ZAPINHO.png" width="50px" alt="WhatsApp">
+            </a>
+            <a href="https://www.tiktok.com/@senacminas" target="_blank" title="TikTok Senac">
+                <img src="imagens/tiktokk.webp" width="50px" alt="TikTok">
+            </a>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
+
+
